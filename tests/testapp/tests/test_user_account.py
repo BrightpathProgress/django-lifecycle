@@ -134,5 +134,5 @@ class UserAccountTestCase(TestCase):
         value = UserAccount.objects.all().delete()
 
         self.assertEqual(
-            value, (1, {"testapp.Locale_users": 0, "testapp.UserAccount": 1})
+            value, (1, {"testapp.UserAccount": 1})
         )
