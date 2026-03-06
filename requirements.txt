@@ -1,5 +1,5 @@
 Click==7.0
-Django==4.2.11
+Django==5.2.12
 djangorestframework==3.9.4
 Jinja2==2.11.1
 livereload==2.6.1
